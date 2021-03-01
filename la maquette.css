@@ -1,0 +1,288 @@
+body, html{
+	padding: 0;
+	margin: 0p;
+	font-family: 'Poppins', sans-serif;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+/*header*/
+.header{
+	background-color: #2B0D4A;
+	height:70px;
+	line-height: 70px; /*c'est pour descendre l'écriture càd le menu*/
+}
+
+.separator{
+	height: 30px;
+	width: 1%;
+	border: none;
+	box-shadow: none;
+	background: blue;
+}
+
+.logo{
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	float: left;
+}
+
+.menu{
+	float: right;
+}
+
+.menu a{
+	color: white;
+	margin-right: 20px;
+}
+
+#about{
+	text-align: center;
+	padding-top: 10%;
+
+}
+.about article{
+	
+}
+
+.about,article h2  {
+	text-align: center;
+	margin-top: 10%;
+
+}
+
+
+
+.menu a:hover{
+	color: #0B422A;
+}
+
+.container-fluid{
+
+	padding: 0px;
+}
+
+.ban{
+	
+}
+
+.ban.img{
+	width: 100% ;
+	max-width: 100%;
+}
+
+.inner-banner{
+	position: absolute; /*top et position vont ensemble su j'enleve la position le top ne va pas marchér*/
+	top: 40%;
+	width: 100%;
+	text-align: center;
+
+}
+
+.inner-banner h1{
+	color: white;
+	text-shadow: 1px 1px 20px green;
+}
+
+.inner-banner .btn-primary:hover{
+	background: green;
+ 
+}
+ 
+ /*le portfolio*/
+
+.portfolio{
+	padding-bottom: 40%;
+	background: url(Background.png);
+
+	
+}
+.portfolio .row1{
+	margin-bottom: 50px;
+
+}
+.portfolio .section_title{
+	text-align: center;
+	
+	padding: 40px;
+	
+
+}
+
+.portfolio .section_title h1{
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.portfolio .section_title p {
+font-weight: 700;
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+
+
+.portfolio .row1 .item{
+	width: 30%;
+	margin-right: 3%;
+	float: left;
+	background-color:white ;
+	text-align: center; 
+	padding-bottom: 30px;
+}
+
+.portfolio .row1 .item img{
+	width: 100%;
+	margin-bottom:30px;
+}
+
+.portfolio .row1 .item h1{
+	font-size: 18px;
+	font-weight: 700px;
+}
+
+
+
+.portfolio .row1 .item span{
+	font-size: 14px;
+	font-style: italic;
+}
+
+
+
+.portfolio .row3 .item{
+	width: 30%;
+	margin-right: 3%;
+	float: left;
+	background-color:white ;
+	text-align: center; 
+	padding-bottom: 30px;
+}
+
+.portfolio .row3 .item img{
+	width: 100%;
+	margin-bottom:30px;
+}
+
+.portfolio .row3 .item h1{
+	font-size: 18px;
+	font-weight: 700px;
+}
+
+
+
+.portfolio .row3 .item span{
+	font-size: 14px;
+	font-style: italic;
+
+}
+
+
+
+
+
+
+
+
+/*la formulaire*/
+.foot{
+	background-image: url(monde.png);
+	height: 500px;
+}
+
+.foot .row1 h1{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding: 40px;
+}
+.foot .row1 p{
+	text-align: center;
+	padding: 0 ;
+	color: white;
+	font-size: 10px;
+	font-weight: 200px;
+	
+}
+
+.foot .btn btn-primary{
+float: right;
+}
+.container{
+width: 100%;
+text-align: center;
+
+}
+.foot .container .row1 .mess textarea{
+	
+}
+
+.row1{
+	margin-bottom: 10%;
+	
+	
+}
+
+.foot .container .row1 .ré{
+padding: 7%;
+}
+
+/*copyright*/
+.ligne{
+	text-align: right;
+}
+
+/*les services*/
+.container .row2 i{
+	padding: 20px 20px;
+	display: inline-block;
+	border: 1px solid #EB8512;
+	border-radius: 50%;
+	color: #EB8512
+
+	
+
+}
+i{
+	width: 40%;
+}
+
+.container .row2 h1{
+font-size: 18px;
+font-weight: 12px;
+}
+
+.container .row2 p{
+font-size: 14px;
+}
+
+
+
+/*    LE about us*/
+	.container .row2- .si-
+	{
+width:170px;
+height: 170px;
+border-radius: 50%;
+border: 7px solid #f1f1f1;
+background-color: #EBA544;
+margin-bottom: 3%;
+	}
+
+	.container .row2- p{
+		font-size: 14px;
+		width: 30%;
+		margin-left: 115px;
+		line-height: 1.7;
+		width: 150px;
+		margin-left: 115px;
+	}
+	.container .row2- h1{
+		font-size: 18px;
+		font-weight: 700;
+		width: 40%;
+		margin-left: 1px;
+	}
